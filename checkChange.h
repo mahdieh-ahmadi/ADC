@@ -1,0 +1,6 @@
+#ifndef _checkChange_INCLUDED_
+#define _checkChange_INCLUDED_
+
+void checkChange(int x , int count);
+
+#endif

@@ -1,0 +1,14 @@
+#include <mega16.h>
+#include <stdio.h>
+#include <delay.h>
+#include <alcd.h>
+
+void show_lcd(int x){
+  int y;
+  char show[];
+  y = 4.88*x ;
+  sprintf(show ,"%3d " ,y);  
+ lcd_gotoxy(0,0); 
+  lcd_puts(show); 
+  delay_ms(100);
+}
